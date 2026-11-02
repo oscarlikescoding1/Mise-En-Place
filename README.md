@@ -12,3 +12,21 @@ I want to build a program that not only scrapes high-quality recipe websites, bu
 |    --------------  |   ------   |   ----------   |
 | **Important** | <ul><li>Scrape at least one website for recipes</li><li>Obtain key information like ingredients from the website </li><li>Answer: "what are the most common ingredients in a cuisine type?"</li></ul> | <ul><li>Cost estimator that takes info from linked google sheet with available pantry ingredients</li><li>Multiple website sources and reliability weighting score for each website</li><li>A simple web interface</li></ul>|
 | **Not Important** | <ul><li>HTML parsing using beautiful soup</li><li>Ingredient parsing</li><li>Unit conversions</li><li>Visualization using matplotlib</li></ul> | <ul><li>Scrapping multiple recipe websites at first</li><li>Nutrition analysis</li><li>Cuisine type classification</li></ul> |
+
+## Technical Stack (Libraries, commands, languages, external tools etc. I plan to use):
+- Python
+- Pandas, Numpy, Recipe-scrapers which builds off beautiful soup, matplotlib, seaborn, ingredients-parser-nlp, rapid fuzz
+- Raw recipes will be saved as json then everything stored into a csv file
+- I will be pulling recipes from public recipe websites, I will be checking the specific website’s policies on web scraping then using recipe-scrapers to read it
+
+## Milestones to be achieved:
+1. Set up the github repo and environment
+2. Scrape a single recipe
+3. Scrape many recipes and save the raw data as JSONs
+4. Parse ingredient items
+5. Normalize ingredient items like green onions vs scallions
+6. Build the cleaned dataset into a csv
+7. Answer first question of cuisine type and ingredient rate of occurrence
+8. Display basics on a simple web interface
+9. Write the README and clean up
+
