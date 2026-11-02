@@ -10,5 +10,6 @@ I want to build a program that not only scrapes high-quality recipe websites, bu
 ## Eisenhower Matrix:
 |                    | **Urgent** | **Not Urgent** |
 |    --------------  |   ------   |   ----------   |
-| **Important** | <ul><li style="font-size: 9px;">Scrape at least one website for recipes</li><li style="font-size: 9px;">Obtain key information like ingredients from the website </li><li style="font-size: 9px;">Answer: "what are the most common ingredients in a cuisine type?"</li></ul> | 
+| **Important** | <ul><li>Scrape at least one website for recipes</li><li>Obtain key information like ingredients from the website </li><li>Answer: "what are the most common ingredients in a cuisine type?"</li></ul> | <ul><li>Cost estimator that takes info from linked google sheet with available pantry ingredients</li><li>Multiple website sources and reliability weighting score for each website
+</li><li>A simple web interface</li></ul>|
 | **Not Important** |
