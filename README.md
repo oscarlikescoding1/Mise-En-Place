@@ -10,5 +10,5 @@ I want to build a program that not only scrapes high-quality recipe websites, bu
 ## Eisenhower Matrix:
 |                    | **Urgent** | **Not Urgent** |
 |    --------------  |   ------   |   ----------   |
-| **Important** |
+| **Important** | <ul><li>Scrape at least one website for recipes</li><li>Obtain key information like ingredients from the website </li><li>Answer: "what are the most common ingredients in a cuisine type?"</li></ul> | 
 | **Not Important** |
